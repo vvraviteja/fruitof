@@ -1,0 +1,125 @@
+.mw-gender{
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	#searchKeywords {
+		background-color: transparent;
+		border: none;
+		color: #ffffff;
+		font-size: 125%;
+		padding: 5px 10px;
+		width: 100%;
+		outline: none;
+		margin-top: 3px;
+	}
+ .search{
+ 	form{
+ 		background-color: #34b233;
+		border: 3px solid #ffffff;
+		border-radius: 50px;
+		
+		width: 100%;
+		
+ 	}
+ }
+ .btn{
+ 	display:none;
+ }
+ 
+.mw-list{
+		padding: 0px 10px;
+}
+.mw-menu{
+	
+		display: inline-block;
+		float: right;
+		margin-top: -20px;
+		background-color: #34b233;
+		padding: 20px;
+	    &[data-ur-state="enabled"] {
+	    	background-color: #ffffff;
+	    	border-top:1px solid #eeeeee;
+	    	margin-top: -21px !important;
+	    	padding: 22px;
+	    	span{
+	    		display: inline-block;
+
+				@extend .sprites-icon_dwn_arr-g;
+			}
+	    }		
+	
+}
+	.mw-pagination,.paginationLinks {
+		clear:both;
+		padding:0px 20px;
+		li{
+			display:inline;
+			color:#747678;
+			a{
+				color: #747678;
+				
+			}
+		}
+	}
+	.nextPage,.previousPage {
+		float:right;
+		a{
+			color: #34b233 !important;
+			text-transform:uppercase;
+		}
+	}
+	.mw-product:nth-of-type(odd),.product:nth-of-type(odd){
+		float: left; 
+		padding-right: 5px; 
+		border-right: 1px solid #EDEEF0;; 
+
+	}
+	.mw-product,.product {
+		width: 50%;
+		float: left;
+		padding: 5px 15px; 
+		border-bottom: 1px solid #EDEEF0;; 
+		span,div{
+			a{
+				img{
+					width:100%;
+					height: 135px;
+				}
+			}
+		}
+		
+			list-style: none;
+		
+	}
+	#I-2{
+		clear:both;
+	}
+	.mw-pad {
+		padding:20px 0px;
+		list-style: none;
+	}
+	.title,.productDetails{
+		a{
+			font-size:11px;
+			color: #747678;
+			white-space: nowrap;
+			display: block;
+			overflow-x: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	.priceRange,.price{
+		font-size:11px;
+		color: #34b233 !important;
+	}
+	.listPrice,.colorAvailability,dt.salePrice{
+		display:none;
+	}
+	.salePrice{
+		font-size:11px;
+		color: #34b233 !important;
+	}
+	.productQuickView,dt.price,dt.priceRange{
+		display:none;
+	}
+
+}

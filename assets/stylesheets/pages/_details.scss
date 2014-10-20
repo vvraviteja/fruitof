@@ -1,0 +1,258 @@
+.mw-details{
+	
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+
+	#bottom-5,#center-,.rating{
+		clear:both;
+	}
+	.search form {
+background-color: #34b233;
+border: 3px solid #ffffff;
+border-radius: 50px;
+width: 100%;
+}
+	#searchKeywords {
+		background-color: transparent;
+		border: none;
+		color: #ffffff;
+		font-size: 125%;
+		padding: 5px 10px;
+		width: 100%;
+		outline: none;
+		margin-top: 3px;
+	}
+	.btn{
+		display:none;
+	}
+	#center-6,#rightColumn{
+		width: 100%;
+		clear:both;
+	}
+	.productTitle{
+		font-size: 12px;
+		color: #747678;
+		text-transform:uppercase;
+	}
+	#center-right-wrapper{
+		padding: 25px 20px;
+	}
+	.productImage{
+		border: 1px solid #EDEEF0;
+	}
+	#imageBody{
+		img{
+			width:100%;
+		}
+	}
+	#alternateImagesBody{
+		margin-top: 10px;
+		width:100%;
+		ul{
+			li{
+				padding-right:5px;
+				float:left;
+				img{
+					width: 72px;
+					height: 72px;
+				}
+			}
+		}
+		header{
+			display:none;
+		}
+	}
+	dl.attributeList dt {
+		float: left;
+		clear: both;
+		padding-right: 9px;
+	}
+	.mw-greenfont{
+		font-size: 14px;
+		font-weight: bold;
+		color: #3b4;
+		margin:5px 0px;
+
+	}
+	.productDetailPrice{
+		dl{
+		
+			font-size: 14px;
+		font-weight: bold;
+		color: #3b4;
+		margin:5px 0px;
+		
+		}
+	}
+	.itemNo,.reviewSummaryNoReviews,.label{
+		color: #747678;
+		font-size: 14px;
+		a{
+			color: #3b4;
+		}
+	}
+	.item,.location{
+		display: inline;
+		margin-right: 9px;
+	}
+	.mw-margin{
+		margin:10px 0px;
+	}
+	.mw-field-border{
+		border:1px solid #ffffff;
+	}
+	.mw-ol{
+		list-style:none;
+		margin-bottom: 15px;
+		label,.size{
+			font-weight:bold;
+		}
+		li{
+			color: #747678;
+			select {
+
+				border: 1px solid #bbbbbb;
+				border-radius: 20px;
+				color: #747678;
+				font-size: 90%;
+				padding: 5px;
+				width: 30%;
+				margin: 10px 0px;
+
+			}
+			 a {
+				color: #34b233;
+				text-decoration: none;
+				}
+		}
+		#buyboxQuantity{
+			margin-left:16px;
+		}
+	}
+	.productAvailabilityMessage,#customerReviewTitle{
+
+		display:none !important;
+	}
+	#addToCartButton,{
+		background-color: #747678;
+		border: 0;
+		border-radius: 100px;
+		color: #FFFFFF;
+		font-weight: 700;
+		padding: 10px 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	.yes,.no{
+		background-color: #747678;
+		border: 0;
+		border-radius: 100px;
+		margin:15px 5px;
+		font-weight: 700;
+		padding: 10px 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+		widt:50%;
+		float:left;
+		span{
+			color: #FFFFFF;
+		}
+	}
+
+	.product-tabs{
+		li{
+			float:left;
+			width:50%;
+			a{
+				display: block;
+				padding: 10px;
+				border-bottom:  1px solid #EDEEF0;
+				font-weight:bold;
+				text-transform:uppercase;
+				color:#747678;
+				text-align: center;
+				&[class='active']{
+					
+					color: #fdc82f;
+					display: block;
+					padding: 10px;
+					border-top: 1px solid #EDEEF0;
+					border-left: 1px solid #EDEEF0;
+					border-right: 1px solid #EDEEF0;
+					border-bottom:none;
+				}
+			}
+			
+		}
+	}
+	#right-11{
+		div{
+			height: 60px;
+		}
+		
+	}
+	
+	.productInfo,.noReviews {
+		padding-top:10px;
+		color:#747678;
+		line-height: 20px;
+		a{
+			color: #3b4;
+		}
+	}
+	.gplusContainer {
+	width: 62px !important;
+	}
+	.information {
+		li:before {
+    		content: "• ";
+   			color:#747678;
+		}
+	}
+	.communityReviews {
+		display:none ;
+	}
+	#pan-view-target {
+		display:none !important;
+	}
+	.colorSwatches{
+		ul{
+			li{
+				display:inline;
+			}
+		}
+	}
+	.colorMsgLabel,.communityReviews{
+		margin: 15px 0px;
+		color:#747678;
+		line-height:20px;
+		a{
+			color: #3b4;
+		}
+	}
+	dl.reviewsSnapshot {
+		height: 100%;
+		padding-top: 5px;
+		margin-bottom: 9px;
+		dt{
+			float: left;
+			margin-right:2px;
+		}
+		dd.reviewsSnapshotBarBackground {
+			background-color: #bbbbbb;
+			display: block;
+			float: left;
+			height: 15px;
+			overflow: hidden;
+			width: 100px;
+			margin-right: 10px;
+			margin-top:4px;
+
+			span.reviewsSnapshotBar {
+				background-color: #fdc82f;
+				display: block;
+				height: 100%;
+			}
+		}
+}
+}

@@ -1,0 +1,23 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:600,400");
+@import "globals/uranium";
+@import "globals/bourbon/bourbon";
+@import "globals/bourbon_fix";
+
+// Variables
+@import "variables/color";
+@import "variables/styles";
+@import "variables/fonts";
+@import "variables/constants";
+
+// Import global base styles
+@import "globals/base";
+@import "globals/sprites";
+
+// Header & Footer
+@import "sections/header";
+@import "sections/footer";
+
+// Pages
+@import "pages/home";
+@import "pages/gender";
+@import "pages/details";

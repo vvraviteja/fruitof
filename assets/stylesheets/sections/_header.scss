@@ -1,0 +1,43 @@
+.mw-header {
+	padding:15px 20px;
+  .logo{
+  	display: block;
+	float: left;
+	margin-bottom: 15px;
+  } 
+  .mw-nav-item{
+  	float: right;
+  	padding: 10px 20px 0px 0px;
+	span[class*='sprites-']{
+		display: block;
+	}
+ }
+ .mw-nav-item-menu{
+  	float: right;
+  	padding: 10px 0px 0px 0px;
+	span[class*='sprites-']{
+		display: block;
+	}
+ }
+ .mw-nav-item-cart{
+  	float: right;
+  	padding: 10px 40px 0px 0px;
+	span[class*='sprites-']{
+		display: block;
+	}
+ }
+ .dynamicMiniCart{
+ 	border: 1px solid #bbbbbb;
+	border-radius: 4px;
+padding: 10px;
+color: #747678;
+z-index: 400;
+position: absolute;
+top: 400px;
+background: white;
+margin: 20px;
+line-height: 20px;
+text-align: center;
+ }
+ 
+}
